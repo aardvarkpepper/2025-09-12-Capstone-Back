@@ -1,0 +1,33 @@
+{
+  "name": "2025-08-28-sba",
+  "version": "1.0.0",
+  "description": "mongoose.set('runValidators', true); in connection.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "passport-jwt": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aardvarkpepper/2025-08-29-SBA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aardvarkpepper/2025-08-29-SBA/issues"
+  },
+  "homepage": "https://github.com/aardvarkpepper/2025-08-29-SBA#readme"
+}
