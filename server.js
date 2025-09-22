@@ -5,8 +5,6 @@ const passport = require('passport');
 const routes = require('./routes/index.js');
 const cors = require('cors');
 
-app.use(cors());
-
 /**
  * 
  * https://www.geeksforgeeks.org/node-js/npm-cors/
@@ -22,6 +20,7 @@ app.use(cors(corsOptions));
 // remember http://localhost:3000/api/auth/github/callback is api/user here.
 
 const app = express();
+app.use(cors());
 const PORT = process.env.PORT || 3001;
 
 // similarly to require dotenv, use app.use(express.json) immediately.
