@@ -3,6 +3,21 @@ const connectMongooseToMongoDB = require('./config/database');
 const express = require('express');
 const passport = require('passport');
 const routes = require('./routes/index.js');
+const cors = require('cors');
+
+app.use(cors());
+
+/**
+ * 
+ * https://www.geeksforgeeks.org/node-js/npm-cors/
+ * 
+ * 
+ * const corsOptions = {
+  origin: 'http://localhost:5173', (or whatever)
+};
+
+app.use(cors(corsOptions));
+ */
 
 // remember http://localhost:3000/api/auth/github/callback is api/user here.
 

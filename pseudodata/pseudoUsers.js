@@ -22,6 +22,12 @@ const users = [
     "email": "danica@yahoo.com",
     "password": "danicapass",
     "role": "user"
+  },
+  {
+    "username": "Echo",
+    "email": "echo@yahoo.com",
+    "password": "echopass",
+    "role": "admin"
   }
 ]
 
@@ -85,6 +91,16 @@ For POST admin/ools - JWT test OK.  (In Postman, Authorization tab, "Type": Bear
   role: 'user',
   _id: new ObjectId('68cc3ce408ea92ac04c85d62'),
   __v: 0
+}
+
+// from deploy:
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjY4ZDA3N2JjYzJjNmVkNTNhZjliMmRkNSIsInVzZXJuYW1lIjoiRWNobyIsImVtYWlsIjoiZWNob0B5YWhvby5jb20iLCJyb2xlIjoiYWRtaW4ifSwiaWF0IjoxNzU4NDkzMDM1LCJleHAiOjE3NTg0OTY2MzV9.Z9bHSgjZhGf65UEGbizyGQdSlAAWXxmuSvVbYNaYynM",
+    "user": {
+        "username": "Echo",
+        "email": "echo@yahoo.com",
+        "role": "admin"
+    }
 }
 
  */
